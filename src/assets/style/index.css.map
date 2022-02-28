@@ -5,7 +5,10 @@
         "index.scss",
         "_layout.scss",
         "_colors.scss",
-        "_fonts.scss"
+        "_fonts.scss",
+        "_carl.scss",
+        "_anosh.scss",
+        "_emilia.scss"
     ],
     "names": [],
     "file": "index.css"
