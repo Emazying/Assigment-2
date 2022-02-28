@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+body {
+  width: 100%;
+}
+
+body > * {
+  margin: 100px auto;
+  width: 600px;
+  height: 600px;
+}
+
+.carl__one {
+  background-color: #025e73;
+}
+/*# sourceMappingURL=index.css.map */
