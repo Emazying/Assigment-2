@@ -3,8 +3,8 @@ What the project does?
 Why the project is useful?
     This project is useful to help front the goal we have chosen, and make everyone who sees the page aware of the issues related to plastic pollution in the ocean.
 How users can get started with the project?
+    As described above, our project is about preserving life under water. In the storyboards, we have defined some measures that humans can contribute to saving lives under the sea. There are things like reuse, recycle, reduce, and repair, in addition to not pollute, say no to plastic - use a shopping net instead of a plastic bag, use your own bottle before buying a plastic bottle.    
 Where users can get help with your project?
 Which technology is used?
 Who maintains and contributes to the project?
 
-hello
