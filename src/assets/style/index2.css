@@ -37,3 +37,15 @@
         border-radius: 0;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    .ball {
+        background-color: cadetblue;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .ball {
+        background-color: rgb(214, 241, 113);
+    }
+}
