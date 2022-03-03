@@ -1,7 +1,32 @@
-.square {
+.ball {
     width: 120px;
     height: 120px;
     background-color: cadetblue;
     border-radius: 50%;
     margin: 0 auto;
+    animation: ani-ball 2s infinite linear;
+}
+
+@keyframes ani-ball {
+    0% {
+        transform: translateY(5em);
+    }
+    20% {
+        transform: translateY(10em);
+    }
+    50%,
+    60% {
+        transform: translateY(20em);
+    }
+    62% {
+        transform: translateY(15em);
+    }
+    80% {
+        transform: translateY(10em) rotateZ(180deg);
+        border-radius: 10%;
+    }
+    100% {
+        transform: translateY(5em) rotateZ(90deg);
+        border-radius: 10%;
+    }
 }
