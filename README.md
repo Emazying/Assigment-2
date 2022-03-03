@@ -7,5 +7,7 @@ How users can get started with the project?
 Where users can get help with your project?
     Since this is a project that helps the United Nations to promote one of their 17 goals, you can read and get more information about the goal on their website. In addition, we give many tips in our project on how to help contribute.
 Which technology is used?
+For this project we using Virtual studio code and GitHub, and figma for making a prototype/storyboard for scrollytelling.
 Who maintains and contributes to the project?
+We are 3 group members, we all try to work equaly and we help eachother if needed. Our groupmembers are Anosh C. , Carl H. and Emilia L.
 
