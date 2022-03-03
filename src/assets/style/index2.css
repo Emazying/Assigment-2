@@ -30,3 +30,10 @@
         border-radius: 10%;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .ball {
+        animation: none;
+        border-radius: 0;
+    }
+}
