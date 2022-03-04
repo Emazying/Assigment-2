@@ -34,7 +34,7 @@
 @media (prefers-reduced-motion: reduce) {
     .ball {
         animation: none;
-        border-radius: 0;
+        border-radius: none;
     }
 }
 
