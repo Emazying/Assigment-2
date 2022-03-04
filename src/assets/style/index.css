@@ -1,11 +1,11 @@
 body {
-  width: 100%;
+    width: 100%;
 }
 
-body > * {
-  margin: 100px auto;
-  width: 600px;
-  height: 600px;
+body>* {
+    margin: 100px auto;
+    width: 600px;
+    height: 600px;
 }
 
 @-webkit-keyframes carl__animation {
@@ -86,5 +86,6 @@ body > * {
     width: 125px;
     height: 125px;
   }
-}
+
+
 /*# sourceMappingURL=index.css.map */
