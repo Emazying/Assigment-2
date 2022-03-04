@@ -1,3 +1,53 @@
-.carl__one {
+@keyframes carl__animation {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    25% {
+        transform: rotate(90deg) scale(1.25);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.5);
+    }
+
+    75% {
+        transform: rotate(270deg) scale(1.25);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+.carl__square {
     background-color: $navy;
+    border-radius: 15%;
+    animation: carl__animation 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion) {
+    .carl__square {
+        animation: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .carl__square {
+        background-color: $sand;
+    }
+}
+
+@media (orientation: landscape) {
+    .carl__square {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (orientation: portrait) {
+    .carl__square {
+        width: 125px;
+        height: 125px;
+    }
 }
