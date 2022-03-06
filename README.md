@@ -11,3 +11,4 @@ For this project we using Virtual studio code and GitHub, and figma/illustrato f
 Who maintains and contributes to the project?
 We are 3 group members, we all try to work equaly and we help eachother if needed. Our groupmembers are Anosh C. , Carl H. and Emilia L.
 
+Storyboard in figma, first scenes : https://www.figma.com/file/X8yb9h0YDdlWIReNw52JS6/Untitled?node-id=0%3A1
