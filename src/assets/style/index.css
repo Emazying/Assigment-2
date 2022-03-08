@@ -1,11 +1,77 @@
 body {
-    width: 100%;
+  width: 100%;
 }
 
-body>* {
-    margin: 100px auto;
-    width: 600px;
-    height: 600px;
+body > * {
+  margin: 100px auto;
+  width: 600px;
+  height: 600px;
+}
+
+.carl__square {
+  background-color: #025e73;
+  border-radius: 15%;
+  -webkit-animation: carl__animation 6s ease-in-out infinite;
+          animation: carl__animation 6s ease-in-out infinite;
+}
+
+@-webkit-keyframes emilia_animasjon {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1s;
+  }
+}
+
+@keyframes emilia_animasjon {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1s;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .square_emilia {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #144b66;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .square_emilia {
+    background-color: #f2668b;
+  }
+}
+
+@media (orientation: portrait) {
+  .square_emilia {
+    width: 150px;
+    height: 350px;
+  }
+}
+
+@media (orientation: landscape) {
+  .square_emilia {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @-webkit-keyframes carl__animation {
@@ -54,13 +120,6 @@ body>* {
   }
 }
 
-.carl__square {
-  background-color: #025e73;
-  border-radius: 15%;
-  -webkit-animation: carl__animation 6s ease-in-out infinite;
-          animation: carl__animation 6s ease-in-out infinite;
-}
-
 @media (prefers-reduced-motion) {
   .carl__square {
     -webkit-animation: none;
@@ -86,6 +145,5 @@ body>* {
     width: 125px;
     height: 125px;
   }
-
-
+}
 /*# sourceMappingURL=index.css.map */

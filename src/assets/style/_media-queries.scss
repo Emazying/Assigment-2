@@ -1,0 +1,25 @@
+@media (prefers-reduced-motion) {
+    .carl__square {
+        animation: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .carl__square {
+        background-color: $sand;
+    }
+}
+
+@media (orientation: landscape) {
+    .carl__square {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (orientation: portrait) {
+    .carl__square {
+        width: 125px;
+        height: 125px;
+    }
+}
