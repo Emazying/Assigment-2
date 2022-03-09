@@ -2,14 +2,13 @@
     .carl__square {
         animation: none;
     }
+
     .animation__ball {
         animation: none;
         border-radius: none;
     }
-}
 
-@media (prefers-reduced-motion) {
-    .carl__square {
+    .square_emilia {
         animation: none;
     }
 }
@@ -18,8 +17,13 @@
     .carl__square {
         background-color: $sand;
     }
+
     .animation__ball {
         background-color: $lightGreen;
+    }
+
+    .square_emilia {
+        background-color: $green;
     }
 }
 
@@ -27,8 +31,13 @@
     .carl__square {
         background-color: $pink;
     }
+
     .animation__ball {
         background-color: $cadetBlue;
+    }
+
+    .square_emilia {
+        background-color: $pink;
     }
 }
 
@@ -37,8 +46,14 @@
         width: 300px;
         height: 300px;
     }
+
     .animation__ball {
         background-color: $red;
+    }
+
+    .square_emilia {
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -47,41 +62,15 @@
         width: 125px;
         height: 125px;
     }
+
     .animation__ball {
         width: 120px;
         height: 120px;
         border: $tourqise 0.3rem dotted;
     }
-}
 
-@media (prefers-reduced-motion) {
-    .square_emilia {
-        animation: none;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        background-color: #144b66;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    .square_emilia {
-        background-color: #f2668b;
-    }
-}
-
-@media (orientation: portrait) {
     .square_emilia {
         width: 150px;
-        height: 350px;
-    }
-}
-
-@media (orientation: landscape) {
-    .square_emilia {
-        width: 350px;
         height: 350px;
     }
 }
