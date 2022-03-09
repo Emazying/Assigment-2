@@ -4,10 +4,10 @@
     background-color: cadetblue;
     border-radius: 50%;
     margin: 0 auto;
-    animation: ani-ball 2s infinite linear;
+    animation: animation__ball 2s infinite linear;
 }
 
-@keyframes ani-ball {
+@keyframes animation__ball {
     0% {
         transform: translateY(5em);
     }
