@@ -13,6 +13,7 @@ body > * {
   border-radius: 15%;
   -webkit-animation: carl__animation 6s ease-in-out infinite;
           animation: carl__animation 6s ease-in-out infinite;
+  margin-top: 150px;
 }
 
 .square_emilia {
@@ -26,9 +27,9 @@ body > * {
 .anosh__animation {
   width: 200px;
   height: 200px;
-  background-color: cadetblue;
+  background-color: #5f9ea0;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 0 auto 400px;
   -webkit-animation: animation__ball 2s infinite linear;
           animation: animation__ball 2s infinite linear;
 }

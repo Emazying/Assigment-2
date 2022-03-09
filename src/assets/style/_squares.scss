@@ -2,10 +2,11 @@
     background-color: $navy;
     border-radius: 15%;
     animation: carl__animation 6s ease-in-out infinite;
+    margin-top: 150px;
 }
 
 .square_emilia {
-    background-color: #011f26;
+    background-color: $darkBlue;
     animation: emilia_animasjon 1s linear both;
     margin: auto;
     margin-top: 5rem;
@@ -14,8 +15,8 @@
 .anosh__animation {
     width: 200px;
     height: 200px;
-    background-color: cadetblue;
+    background-color: $cadetBlue;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto 400px;
     animation: animation__ball 2s infinite linear;
 }
