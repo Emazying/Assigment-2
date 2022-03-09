@@ -1,151 +1,238 @@
 body {
-    width: 100%;
+  width: 100%;
 }
 
-body>* {
-    margin: 100px auto;
-    width: 600px;
-    height: 600px;
+body > * {
+  margin: 100px auto;
+  width: 600px;
+  height: 600px;
 }
 
 .carl__square {
-    background-color: #025e73;
-    border-radius: 15%;
-    -webkit-animation: carl__animation 6s ease-in-out infinite;
-    animation: carl__animation 6s ease-in-out infinite;
+  background-color: #025e73;
+  border-radius: 15%;
+  -webkit-animation: carl__animation 6s ease-in-out infinite;
+          animation: carl__animation 6s ease-in-out infinite;
+  margin-top: 150px;
 }
 
-@-webkit-keyframes emilia_animasjon {
-    0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
-        opacity: 1s;
-    }
+.square_emilia {
+  background-color: #011f26;
+  -webkit-animation: emilia_animasjon 1s linear both;
+          animation: emilia_animasjon 1s linear both;
+  margin: auto;
+  margin-top: 5rem;
 }
 
-@keyframes emilia_animasjon {
-    0% {
-        -webkit-transform: translateX(-800px) rotate(-540deg);
-        transform: translateX(-800px) rotate(-540deg);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0) rotate(0deg);
-        transform: translateX(0) rotate(0deg);
-        opacity: 1s;
-    }
-}
-
-@media (prefers-reduced-motion) {
-    .square_emilia {
-        -webkit-animation: none;
-        animation: none;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        background-color: #144b66;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    .square_emilia {
-        background-color: #f2668b;
-    }
-}
-
-@media (orientation: portrait) {
-    .square_emilia {
-        width: 150px;
-        height: 350px;
-    }
-}
-
-@media (orientation: landscape) {
-    .square_emilia {
-        width: 350px;
-        height: 350px;
-    }
+.anosh__animation {
+  width: 200px;
+  height: 200px;
+  background-color: #5f9ea0;
+  border-radius: 50%;
+  margin: 0 auto 400px;
+  -webkit-animation: animation__ball 2s infinite linear;
+          animation: animation__ball 2s infinite linear;
 }
 
 @-webkit-keyframes carl__animation {
-    0% {
-        -webkit-transform: rotate(0deg) scale(1);
-        transform: rotate(0deg) scale(1);
-    }
-    25% {
-        -webkit-transform: rotate(90deg) scale(1.25);
-        transform: rotate(90deg) scale(1.25);
-    }
-    50% {
-        -webkit-transform: rotate(180deg) scale(1.5);
-        transform: rotate(180deg) scale(1.5);
-    }
-    75% {
-        -webkit-transform: rotate(270deg) scale(1.25);
-        transform: rotate(270deg) scale(1.25);
-    }
-    100% {
-        -webkit-transform: rotate(360deg) scale(1);
-        transform: rotate(360deg) scale(1);
-    }
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+            transform: rotate(0deg) scale(1);
+  }
+  25% {
+    -webkit-transform: rotate(90deg) scale(1.25);
+            transform: rotate(90deg) scale(1.25);
+  }
+  50% {
+    -webkit-transform: rotate(180deg) scale(1.5);
+            transform: rotate(180deg) scale(1.5);
+  }
+  75% {
+    -webkit-transform: rotate(270deg) scale(1.25);
+            transform: rotate(270deg) scale(1.25);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+            transform: rotate(360deg) scale(1);
+  }
 }
 
 @keyframes carl__animation {
-    0% {
-        -webkit-transform: rotate(0deg) scale(1);
-        transform: rotate(0deg) scale(1);
-    }
-    25% {
-        -webkit-transform: rotate(90deg) scale(1.25);
-        transform: rotate(90deg) scale(1.25);
-    }
-    50% {
-        -webkit-transform: rotate(180deg) scale(1.5);
-        transform: rotate(180deg) scale(1.5);
-    }
-    75% {
-        -webkit-transform: rotate(270deg) scale(1.25);
-        transform: rotate(270deg) scale(1.25);
-    }
-    100% {
-        -webkit-transform: rotate(360deg) scale(1);
-        transform: rotate(360deg) scale(1);
-    }
+  0% {
+    -webkit-transform: rotate(0deg) scale(1);
+            transform: rotate(0deg) scale(1);
+  }
+  25% {
+    -webkit-transform: rotate(90deg) scale(1.25);
+            transform: rotate(90deg) scale(1.25);
+  }
+  50% {
+    -webkit-transform: rotate(180deg) scale(1.5);
+            transform: rotate(180deg) scale(1.5);
+  }
+  75% {
+    -webkit-transform: rotate(270deg) scale(1.25);
+            transform: rotate(270deg) scale(1.25);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+            transform: rotate(360deg) scale(1);
+  }
+}
+
+@-webkit-keyframes emilia_animasjon {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1s;
+  }
+}
+
+@keyframes emilia_animasjon {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1s;
+  }
+}
+
+@-webkit-keyframes animation__ball {
+  0% {
+    -webkit-transform: translateY(5em);
+            transform: translateY(5em);
+  }
+  20% {
+    -webkit-transform: translateY(10em);
+            transform: translateY(10em);
+  }
+  50%,
+  60% {
+    -webkit-transform: translateY(20em);
+            transform: translateY(20em);
+  }
+  62% {
+    -webkit-transform: translateY(15em);
+            transform: translateY(15em);
+  }
+  80% {
+    -webkit-transform: translateY(10em) rotateZ(180deg);
+            transform: translateY(10em) rotateZ(180deg);
+    border-radius: 10%;
+  }
+  100% {
+    -webkit-transform: translateY(5em) rotateZ(90deg);
+            transform: translateY(5em) rotateZ(90deg);
+    border-radius: 10%;
+  }
+}
+
+@keyframes animation__ball {
+  0% {
+    -webkit-transform: translateY(5em);
+            transform: translateY(5em);
+  }
+  20% {
+    -webkit-transform: translateY(10em);
+            transform: translateY(10em);
+  }
+  50%,
+  60% {
+    -webkit-transform: translateY(20em);
+            transform: translateY(20em);
+  }
+  62% {
+    -webkit-transform: translateY(15em);
+            transform: translateY(15em);
+  }
+  80% {
+    -webkit-transform: translateY(10em) rotateZ(180deg);
+            transform: translateY(10em) rotateZ(180deg);
+    border-radius: 10%;
+  }
+  100% {
+    -webkit-transform: translateY(5em) rotateZ(90deg);
+            transform: translateY(5em) rotateZ(90deg);
+    border-radius: 10%;
+  }
 }
 
 @media (prefers-reduced-motion) {
-    .carl__square {
-        -webkit-animation: none;
-        animation: none;
-    }
+  .carl__square {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .animation__ball {
+    -webkit-animation: none;
+            animation: none;
+    border-radius: none;
+  }
+  .square_emilia {
+    -webkit-animation: none;
+            animation: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-    .carl__square {
-        background-color: #e9d5b6;
-    }
+  .carl__square {
+    background-color: #e9d5b6;
+  }
+  .animation__ball {
+    background-color: #d6f171;
+  }
+  .square_emilia {
+    background-color: #03a688;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .carl__square {
+    background-color: #f2668b;
+  }
+  .animation__ball {
+    background-color: #5f9ea0;
+  }
+  .square_emilia {
+    background-color: #f2668b;
+  }
 }
 
 @media (orientation: landscape) {
-    .carl__square {
-        width: 300px;
-        height: 300px;
-    }
+  .carl__square {
+    width: 300px;
+    height: 300px;
+  }
+  .animation__ball {
+    background-color: #b37f7f;
+  }
+  .square_emilia {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 @media (orientation: portrait) {
-    .carl__square {
-        width: 125px;
-        height: 125px;
-    }
+  .carl__square {
+    width: 125px;
+    height: 125px;
+  }
+  .animation__ball {
+    width: 120px;
+    height: 120px;
+    border: #a0ebe3 0.3rem dotted;
+  }
+  .square_emilia {
+    width: 150px;
+    height: 350px;
+  }
 }
-
-
 /*# sourceMappingURL=index.css.map */
