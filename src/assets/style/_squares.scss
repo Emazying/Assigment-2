@@ -5,9 +5,17 @@
 }
 
 .square_emilia {
-
     background-color: #011f26;
     animation: emilia_animasjon 1s linear both;
     margin: auto;
     margin-top: 5rem;
+}
+
+.anosh__animation {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: ani-ball 2s infinite linear;
 }

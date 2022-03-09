@@ -2,19 +2,15 @@
     0% {
         transform: rotate(0deg) scale(1);
     }
-
     25% {
         transform: rotate(90deg) scale(1.25);
     }
-
     50% {
         transform: rotate(180deg) scale(1.5);
     }
-
     75% {
         transform: rotate(270deg) scale(1.25);
     }
-
     100% {
         transform: rotate(360deg) scale(1);
     }
@@ -28,5 +24,29 @@
     100% {
         transform: translateX(0) rotate(0deg);
         opacity: 1s;
+    }
+}
+
+@keyframes animation__ball {
+    0% {
+        transform: translateY(5em);
+    }
+    20% {
+        transform: translateY(10em);
+    }
+    50%,
+    60% {
+        transform: translateY(20em);
+    }
+    62% {
+        transform: translateY(15em);
+    }
+    80% {
+        transform: translateY(10em) rotateZ(180deg);
+        border-radius: 10%;
+    }
+    100% {
+        transform: translateY(5em) rotateZ(90deg);
+        border-radius: 10%;
     }
 }
